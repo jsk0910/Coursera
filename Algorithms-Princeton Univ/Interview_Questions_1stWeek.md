@@ -17,6 +17,8 @@ Because this task goes through similarity verification, copying can cause proble
 >  >               sum 값이 W와 같으면 반복문을 종료합니다.  
 >  > + 시간 복잡도 : 배열을 정렬할 때 종류에 따라 다르겠지만 $O(nlogn)$ 혹은 $O(n^2)$의 시간이 걸립니다. 또, for문이 하나 밖에 없기 때문에 최악의 상황이라도 n번 돌아가 $(O(n))$이 나오고, 이를 합쳤을 때 가장 최악의 경우라고 하더라도 $O(n^2) + O(n) ~ O(n^2)$이 나오게 됩니다.  
 >  > + 제가 쓴 정답 : First, Sort the array. Let the sum be S, for each element i in the array, let W = S - i. Start from the begin index and end index of array, if sum of two elements > W, then end index - 1, else then begin index + 1, Stop when the sum = W.  
+>  > + 실제 정답  
+>  > ![image](https://user-images.githubusercontent.com/23286838/224547432-d9fc4b97-c615-4d95-8841-09402e88c506.png)  
 >  > 2. __Search in a bitonic array.__ : an array is _bitonic_ if it is comprised of an increasing sequence of intergers followed immediately by a decreasing sequence of integers. Write a program that, given a bitonic array of n distinct integer values, determines whether a given integer is in the array.  
 >  >                                     + Standard version : Use ~ $3lgn$ compares in the worst case.  
 >  >                                     + Signing bonus : Use ~ $2 lgn$ compares in the worst case.(and prove that no algorithm can guarantee to perform fewer than ~ $2lgn$ compares in the worst case).  
@@ -36,6 +38,8 @@ Because this task goes through similarity verification, copying can cause proble
 >  > > &emsp;else then  
 >  > > &emsp;&emsp;search in left of array  
 >  >   이렇게 변형된 이진 탐색을 만들어서 풀면 됩니다.  
+>  > + 실제 정답  
+>  > ![image](https://user-images.githubusercontent.com/23286838/224547379-6def50ea-a53b-43dd-9b8f-39e0ff256a7a.png)  
 >  > 3. __Egg drop.__ : Suppose that you have an $n$-story building (with floors 1 through $n$) and plenty of eggs. An egg breaks if it dropped from floor $T$ or higher and does not break otherwise. Your goal is to devise a strategy to determine the value of $T$ given the following limitations on the numbers of eggs and tosses.  
 >  > -> 에그 드랍 : 1층부터 n층까지의 빌딩과 많은 달걀이 있다고 가정한다. T층 이상에서 떨어질 때 달걀은 깨진다. 그렇지 않으면 깨지지 않는다. 목표는 T의 값을 결정하는 전략을 고안하는 것이다. (단, 계란과 던지는 횟수의 숫자에 제한이 있다.)  
 >  > + 제한 사항  
@@ -49,3 +53,6 @@ Because this task goes through similarity verification, copying can cause proble
 >  >          For the version 2, starting from 1st floor, and go to 2nd floor, then go to 2^k floor. Then binary search across 2^k and 2^k-1.  
 >  >          For the version 3, go iteratively go across floor with incrementing by sqrt N like o to sqrt N to 2 * sqrt N etc. Once the egg breaks at stage k * sqrt N, iterate across the range (k-1) * sqrt N and k * sqrt N one floor at a time.  
 >  >          For the version 4, Go to first drop floor with version 3's step. Then backtracking from their.  
+>  > + 실제 정답  
+>  > ![image](https://user-images.githubusercontent.com/23286838/224547338-26574ecd-29e9-4057-aaf3-cbc6d70cb17b.png)  
+
