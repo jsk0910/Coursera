@@ -7,8 +7,8 @@ Because this task goes through similarity verification, copying can cause proble
 -> 모든 문제, 자료의 출처는 Princeton University와 Coursera에 있습니다.  
 
 > #### 1. Union-Find (합집합 찾기)
-> > 1. __Social network connectivity.__ : Given a social network containing $n$ members and a log file containing $m$ timestamps at which times pairs of members formed friendships, design an algorithm to determine the earliest time at which all members are connected(i.e., every member is a friend of a friend of a friend... of a friend). Assume that the log file is sorted by timestamp and that friendship is an equivalence relation. The running time of your algorithm should be $mlogn$ or better and use extra space proportional to $n$.
-> > -> 소셜 네트워크 연결 : $n$ 명의 멤버가 연결된 소셜 네트워크와 멤버 간의 연결된 시간(팔로우 등) $m$ 개의 타임스탬프가 포함된 로그 파일이 주어질 때, 모든 구성원이 연결되는 가장 빠른 시간을 결정하는 알고리즘을 고안하시오.(모든 멤버는 친구의 친구 형식으로 연결된다.)
+> > 1. __Social network connectivity.__ : Given a social network containing $n$ members and a log file containing $m$ timestamps at which times pairs of members formed friendships, design an algorithm to determine the earliest time at which all members are connected(i.e., every member is a friend of a friend of a friend... of a friend). Assume that the log file is sorted by timestamp and that friendship is an equivalence relation. The running time of your algorithm should be $mlogn$ or better and use extra space proportional to $n$.  
+> > -> 소셜 네트워크 연결 : $n$ 명의 멤버가 연결된 소셜 네트워크와 멤버 간의 연결된 시간(팔로우 등) $m$ 개의 타임스탬프가 포함된 로그 파일이 주어질 때, 모든 구성원이 연결되는 가장 빠른 시간을 결정하는 알고리즘을 고안하시오.(모든 멤버는 친구의 친구 형식으로 연결된다.) 로그 파일은 타임스탬프를 기준으로 정렬되어 있고, 연결(friendship)은 수평적인 관계이다. 프로그램 실행 시간은 $mlogn$ 이하여야 하고 $n$에 비례하는 여분 공간을 사용해야한다.  
 
 > #### 2. Analysis of Algorithms (알고리즘 분석)  
 >  > 1. __3-SUM in quadratic time.__ : Design an algorithm for the 3-SUM problem that takes time proportional to $n^2$ in the worst case. You may assume that you can sort the $n$ integers in time proportional to $n^2$ or better.  
