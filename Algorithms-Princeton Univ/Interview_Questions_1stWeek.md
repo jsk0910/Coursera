@@ -1,6 +1,6 @@
 ### Interview Questions on 1st Week  
   
-this document is for Interview Questions on Coursera - Algorithms (Princeton Univ.) Part I.  
+This document is for Interview Questions on Coursera - Algorithms (Princeton Univ.) Part I.  
 Because this task goes through similarity verification, copying can cause problems.  
 -> 이 문서는 Coursera - Alogrithms Part I (Princeton Univ.)의 1주차 Interview Questions에 대한 제 답을 저장한 것입니다.  
 해당 과제는 유사도 검증을 거치기 때문에 그대로 복사할 시 문제가 발생할 수 있습니다.  
