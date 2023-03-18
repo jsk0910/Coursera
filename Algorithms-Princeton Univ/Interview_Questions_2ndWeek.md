@@ -103,3 +103,4 @@ copyright of every reference is from Princeton University and Coursera.
 > > 3. __Dutch national flag.__ : Given an array of $n$ buckets, each containing red, white, or blue pebble, sort them by color.  
 > > ![image](https://user-images.githubusercontent.com/23286838/226100310-e1d89723-f268-4637-8540-e7b5ef333b32.png)  
 > > -> 네덜란드 국기 : 빨간색, 하얀색, 또는 파란색 자갈돌이 들어있는 $n$ 개의 버킷의 배열이 주어졌을 때, 색을 기준으로 정렬하라.  
+> > + 풀이 아이디어 : 우선 첫번째 버킷의 색깔을 찾는 color() 함수를 호출한다. 그리고 두번째 버킷부터 차례대로 호출하면서 첫번째와 같은 색이면 
