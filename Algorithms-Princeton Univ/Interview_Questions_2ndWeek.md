@@ -20,6 +20,8 @@ copyright of every reference is from Princeton University and Coursera.
 > >     pop(stack2)  
 > > ```
 > > + 실제 정답
+> > ![image](https://user-images.githubusercontent.com/23286838/226097317-4ac512ce-332c-4ddb-970d-a39156b59101.png)  
+> > 
 > > 2. __Stack with Max.__ : Create a data structure that efficiently supports the stack operations (push and pop) and also a return-the-maximum operation. Assume the elements are real numbers so that you can compare them.  
 > > -> 최댓값과 스택 : 스택 명령어 (push와 pop)를 효과적으로 지원하고 최댓값을 반환하는 명령어가 있는 자료구조를 만들어라. 요소는 실수이고, 서로 비교할 수 있다.  
 > > + 풀이 아이디어 : 스택을 만들고 max 명령어를 실행하면 최댓값을 찾아 반환하도록 할 수 있겠으나, 비효율적이지 않을까하고 생각했다. 그래서 노드(링크드 리스트) 형태의 스택을 만들고 push 명령어를 할 때마다 기존의 최댓값과 비교하도록 하는 것이 좋아보였다. 
@@ -28,7 +30,7 @@ copyright of every reference is from Princeton University and Coursera.
 > >   First, Make node for max. This node's default value is null.
 > >   When New data comes in(push), call the compareMax function. In that function, change the max node to the new max value.  
 > > ```
-> > + 실제 정답
+> > 
 > > + 풀이할 때 만든 코드
 > > ``` java
 > > public class MaxStack {
@@ -67,8 +69,16 @@ copyright of every reference is from Princeton University and Coursera.
 > >   }
 > > }
 > > ```  
+> > + 실제 정답
+> > ![image](https://user-images.githubusercontent.com/23286838/226097352-6adfa277-eeac-48e2-af29-697970a32925.png)  
+> > -> 두 개의 스택을 이용하는 방법을 쓰라고 하네요.  그래서 추가로 만들었습니다.
 > >   
 > > 3. __Java generics.__ : Explain why java prohibits generic array creation.  
 > > -> 자바가 제너릭 배열 생성을 금지하는 이유를 설명하시오.  
 > > + 제가 쓴 정답  
-> > 
+> > ```
+> > array can change type to sub class type, this feature can cause exceptions like runtime error. It lowers the type stability.
+> > So, Java Language was designed to contain only specified type in generic.
+> > ```
+> > + 실제 정답
+> > ![image](https://user-images.githubusercontent.com/23286838/226097373-957195ec-432c-4796-bbf2-c34fa6d16206.png)  
