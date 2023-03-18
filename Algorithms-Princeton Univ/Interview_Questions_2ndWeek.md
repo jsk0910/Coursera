@@ -82,3 +82,14 @@ copyright of every reference is from Princeton University and Coursera.
 > > ```
 > > + 실제 정답
 > > ![image](https://user-images.githubusercontent.com/23286838/226097373-957195ec-432c-4796-bbf2-c34fa6d16206.png)  
+***  
+> #### 2. Elementary Sort  
+> > 1. __Intersection of two sets.__ : Given two arrays $a[]$ and $b[]$, each containing n distinct 2D points in the plane, design a subquadratic algorithm to count the number of points that are contained both in array $a[]$ and array $b[]$.  
+> > -> 두 집합의 교집합 : $a[]$와 $b[]$ 라는 두 개의 배열이 주어졌을 때(평면에서 각각 n개의 뚜렷한 2D 점을 포함합니다.), 두 배열에 모두 포함된 점의 숫자를 세는 subquadratic 알고리즘을 고안하시오.  
+> > + 제가 쓴 정답  
+> > ```
+> > sort and count
+> > ```
+> > + 실제 정답
+> > 
+> > 2. __Permutation.__ : 
