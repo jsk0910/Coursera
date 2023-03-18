@@ -37,10 +37,38 @@ copyright of every reference is from Princeton University and Coursera.
 > >   private float max; // 첫번째 방법을 위한 변수
 > >   private Node _max; // 두번째 방법을 위한 변수
 > >   
+> >   private class Node {
+> >     private float item;
+> >     private Node next;
+> >     private Node prev;
+> >   }
+> >   
 > >   public MaxStack() { // 생성자 함수
 > >     size = 0;
 > >     top = null;
 > >     _max = null;
 > >   }
 > >   
-> > ```
+> >   public void push(float item) { // push 함수
+> >     Node oldTop = top; // 원래 맨 위에 있는 노드(제일 마지막으로 들어온 노드)
+> >     top = new Node(); // 맨 위에 새로운 노드 삽입
+> >     top.item = item; // 데이터 추가
+> >     
+> >     if (oldTop != null) { // 원래 데이터가 있는 경우(탑이 있는 경우)
+> >       top.next = oldTop;
+> >       top.next.prev = top;
+> >       if (_max.item < item) { // 새로 들어온 데이터가 기존의 최댓값보다 큰 경우
+> >         _max = top; // 새로 들어온 데이터로 바꾸기
+> >       }
+> >     } else {
+> >       _max = top; // 최댓값은 첫 데이터로 설정
+> >     }
+> >     size += 1;
+> >   }
+> > }
+> > ```  
+> >   
+> > 3. __Java generics.__ : Explain why java prohibits generic array creation.  
+> > -> 자바가 제너릭 배열 생성을 금지하는 이유를 설명하시오.  
+> > + 제가 쓴 정답  
+> > 
