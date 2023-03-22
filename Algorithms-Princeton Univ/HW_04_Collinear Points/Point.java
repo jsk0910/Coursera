@@ -88,6 +88,15 @@ public class Point implements Comparable<Point> {
      */
     public Comparator<Point> slopeOrder() {
         /* YOUR CODE HERE */
+        return (p1, p2) -> {
+            double slopeP1 = slopeTo(p1);
+            double slopeP2 = slopeTo(p2);
+
+            if (slopeP1 > slopeP2) return 1;
+            if (slopeP1 < slopeP2) return -1;
+
+            return 0;
+        }
     }
 
 
