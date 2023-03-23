@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdDraw;
@@ -73,12 +75,6 @@ public class FastCollinearPoints {
 	
 	private boolean shouldSkip(List<Point> points, Point p) {
 		return points.stream().filter(point -> point.compareTo(p) == 0).findFirst().isPresent();
-	}
-	
-	private void swap(Object[] arr, int i, int j) {
-		Object tmp = arr[i];
-		arr[i] = arr[i];
-		arr[j] = tmp;
 	}
 	
 	public int numberOfSegments() {

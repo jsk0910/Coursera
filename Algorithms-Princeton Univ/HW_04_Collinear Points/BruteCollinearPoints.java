@@ -1,6 +1,7 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
-<<<<<<< HEAD
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdOut;
@@ -10,13 +11,6 @@ public class BruteCollinearPoints {
     private final Point[] points;
     private final int numOfSeg;
     private final LineSegment[] line;
-=======
-public class BruteCollinearPoints {
-
-    private Point[] points;
-    private int numOfSeg;
-    private LineSegment[] line;
->>>>>>> 2bc69c0b0cba8641ba78de37f308143a843ee635
 
     public BruteCollinearPoints(Point[] points) {
         if (points == null) throw new IllegalArgumentException();
@@ -28,10 +22,7 @@ public class BruteCollinearPoints {
 
             for (int j = 0; j < i; j++)
                 if (this.points[j].compareTo(points[i]) == 0) throw new IllegalArgumentException();
-<<<<<<< HEAD
             
-=======
->>>>>>> 2bc69c0b0cba8641ba78de37f308143a843ee635
             this.points[i] = points[i];
         }
 
@@ -39,7 +30,6 @@ public class BruteCollinearPoints {
         
         List<LineSegment> lineSegments = new LinkedList<>();
         Arrays.sort(points);
-<<<<<<< HEAD
         
         for (int p = 0; p < numOfPoints; p++) {
         	for (int q = p+1; q < numOfPoints; q++) {
@@ -93,7 +83,5 @@ public class BruteCollinearPoints {
             segment.draw();
         }
         StdDraw.show();
-=======
->>>>>>> 2bc69c0b0cba8641ba78de37f308143a843ee635
     }
 }
