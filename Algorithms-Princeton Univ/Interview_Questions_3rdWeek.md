@@ -48,3 +48,8 @@ copyright of every reference is from Princeton University and Coursera.
 > >     else then
 > >       b = b[:j]
 > > ```
+> > + 실제 정답  
+> > 3. __Demical dominants.__ : Given an array with $n$ keys, design an algorithm to find all values that occur more than $n/10$ times. The expected running time of your algorithm should be linear.  
+> > -> n개의 키와 배열이 주어졌을 때, $n/10$회 이상 발생하는 모든 값을 찾는 알고리즘을 고안하라. 알고리즘의 예상 시간은 선형 시간이어야 한다.  
+> > + 제가 쓴 정답  
+> > 
