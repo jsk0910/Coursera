@@ -22,3 +22,10 @@ copyright of every reference is from Princeton University and Coursera.
 > > Similar to MergeSort. We need to merge two uniformly shuffled linked list, list1 of size n1 and list2 of size n2. Combine that lists into a new list of size n1 + n2.  
 > > + 실제 정답  
 > > ![image](https://user-images.githubusercontent.com/23286838/227817690-56517d10-48ed-4994-8e64-deaaba2d6f65.png)  
+> #### 2. QuickSort  
+> > 1. __Nuts and bolts.__ : A disorganized carpenter has a mixed pile of $n$ nuts and $n$ bolts. The goal is to find the corresponding pairs of nuts and bolts. Each nut fits exactly one bolt and each bolt fits exactly one nut. By fitting a nut and bolt together, the carpenter can see which one is bigger (but the capenter cannot compare two nuts and bolts directly). Design an algorithm for the problem that uses at most proportional to $nlogn$ compares(probabilistically).  
+> > -> 너츠와 볼트 : 목수는 n개의 너트와 n개의 볼트가 혼합된 더미를 가지고 있다. 목표는 해당 너트와 볼트 쌍을 찾는 것이다. 각 너트는 하나의 볼트와만 일치하고 각 볼트는 하나의 너트와만 일치한다. 너트와 볼트를 맞춤으로써, 목수는 어떤 것이 더 큰지 알 수 있다.(그러나 목수는 두 개의 너트와 볼트를 한 번에 비교할 수는 없다.) 이 문제에 대한 알고리즘을 고안하시오. (확률적으로 $nlogn$ 에 가장 비례하는)  
+> > + 제가 쓴 정답  
+> > Use quicksort.  
+> > + 실제 정답  
+> > 2. __
