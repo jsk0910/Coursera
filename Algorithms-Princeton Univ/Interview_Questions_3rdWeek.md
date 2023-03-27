@@ -28,4 +28,6 @@ copyright of every reference is from Princeton University and Coursera.
 > > + 제가 쓴 정답  
 > > Use quicksort.  
 > > + 실제 정답  
-> > 2. __
+> > 2. __Selection in two sorted arrays.__ : Given two sorted arrays $a[]$ and $b[]$, of lengths $n_1$ and $n_2$ and an integer $0 \leq k < n_1 + n_2$, design an algorithm to find a key of rank $k$. The order of growth of the worst case running time of your algorithm should be $logn$ where $n = n_1 + n_2$.  
+> > ![image](https://user-images.githubusercontent.com/23286838/227833278-ee4302ad-0e0f-4ac2-ae5f-20b3a79c2419.png)  
+> > 
