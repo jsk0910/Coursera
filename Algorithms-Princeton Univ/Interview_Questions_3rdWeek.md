@@ -28,6 +28,7 @@ copyright of every reference is from Princeton University and Coursera.
 > > + 제가 쓴 정답  
 > > Use quicksort.  
 > > + 실제 정답  
+> > ![image](https://user-images.githubusercontent.com/23286838/227836678-d287aff8-fb1d-495a-99ac-6bf44537f34f.png)  
 > > 2. __Selection in two sorted arrays.__ : Given two sorted arrays $a[]$ and $b[]$, of lengths $n_1$ and $n_2$ and an integer $0 \leq k < n_1 + n_2$, design an algorithm to find a key of rank $k$. The order of growth of the worst case running time of your algorithm should be $logn$ where $n = n_1 + n_2$.  
 > > ![image](https://user-images.githubusercontent.com/23286838/227833278-ee4302ad-0e0f-4ac2-ae5f-20b3a79c2419.png)  
 > > + 제가 쓴 정답  
@@ -49,7 +50,10 @@ copyright of every reference is from Princeton University and Coursera.
 > >       b = b[:j]
 > > ```
 > > + 실제 정답  
+> > ![image](https://user-images.githubusercontent.com/23286838/227836633-f042db31-4cf9-430b-8d17-137d2a462663.png)  
 > > 3. __Demical dominants.__ : Given an array with $n$ keys, design an algorithm to find all values that occur more than $n/10$ times. The expected running time of your algorithm should be linear.  
 > > -> n개의 키와 배열이 주어졌을 때, $n/10$회 이상 발생하는 모든 값을 찾는 알고리즘을 고안하라. 알고리즘의 예상 시간은 선형 시간이어야 한다.  
 > > + 제가 쓴 정답  
-> > 
+> > Find the n/10th largest key with QuickSelect.  
+> > + 실제 정답  
+> > ![image](https://user-images.githubusercontent.com/23286838/227836730-90611ede-6f21-42db-8319-7415d875c7ed.png)
