@@ -13,4 +13,4 @@ __HW__ - 프로그래밍 과제에 대한 제출 내용입니다.
 [HW_06_kdtrees](https://github.com/jsk0910/Coursera/tree/main/Algorithms-Princeton%20Univ/Part%20I/HW_06_kdtrees) - 5주차 프로그래밍 과제인 kdtrees입니다. 자세한 내용은 폴더 내의 마크다운 파일을 참고해주세요.  
   
 __Interview Questions__  
-각 주차별로 있는 Interview Questions 에 대한 제 답변을 올려두었습니다.
+각 주차별로 있는 Interview Questions 에 대한 제 답변을 올려두었습니다. - 문제 캡쳐 등의 출처는 모두 Princeton University에 있습니다.  
