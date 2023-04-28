@@ -58,6 +58,10 @@ __동적 연결성__ : 동적 연결성 문제를 푸는 알고리즘으로 Quic
 >   
 > ##### Union-Find Data Type  
 > ```Java
+> public class UF {
+>   UF(int N) // UF 생성자 함수
+>   void union(int p, int q) // p와 q 사이 연결
+>   boolean connected(int, int q) // p와 q 사이가 연결되어 있는지 확인(즉, 같은 컴포넌트 안에 있는가?)
 > ```
   
 #### 2. Quick Find  
